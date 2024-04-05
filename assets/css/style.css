@@ -1,0 +1,121 @@
+/*** ESTILOS MOBILE ***/
+/* estilos generales */
+body h1 {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+body h5 {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+}
+body p {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+/* estilos sección navbar */
+.contenedor-navbar {
+  max-width: 90%;
+}
+.contenedor-navbar .logo-navbar {
+  width: 8rem;
+}
+.contenedor-navbar .logo-navbar img {
+  width: 100%;
+}
+.contenedor-navbar .navbar-collapse {
+  flex-grow: 0;
+}
+.contenedor-navbar .nav-link {
+  text-align: center;
+}
+/* estilos sección main */
+.seccion-main-desk {
+  display: none;
+}
+.seccion-main-mobile {
+  display: block;
+}
+.seccion-main-mobile {
+  width: 90%;
+}
+.seccion-main-mobile img {
+  width: 100%;
+}
+/* estilos sección card */
+.seccion-libros {
+  max-width: 90%;
+}
+.seccion-libros .card img {
+  width: 100%;
+}
+.seccion-libros .card .card-title {
+  height: 2rem;
+}
+/* estilos sección formulario */
+.formulario {
+  max-width: 90%;
+}
+/* estilos sección footer */
+footer {
+  margin: 0 auto;
+}
+footer img {
+  max-width: 6rem;
+}
+
+
+/*** ESTILOS TABLET Y DESKTOP ***/
+@media (min-width: 768px) {
+  /* estilos generales */
+body h1 {
+  font-size: 2.4rem;
+}
+body h5 {
+  font-size: 1.2rem;
+}
+body p {
+  font-size: 1rem;
+}
+/* estilos sección navbar */
+.contenedor-navbar {
+  max-width: 70%;
+}
+/* estilos sección main */
+.seccion-main-desk {
+  display: block;
+}
+.seccion-main-mobile {
+  display: none;
+}
+.seccion-main-desk {
+  width: 50%;
+}
+.seccion-main-desk img {
+  max-width: 15rem;
+}
+/* estilos sección card */
+.seccion-libros {
+  max-width: 50%;
+}
+.seccion-libros .card .card-title {
+  height: 3rem;
+}
+/* estilos sección formulario */
+.formulario {
+  max-width: 50%;
+}
+/* estilos sección footer */
+footer img {
+  max-width: 7.5rem;
+}
+}
+
+
+
+

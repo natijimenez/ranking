@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ranKING</title>
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png" />
+    <!-- script fontawesome -->
+    <script src="https://kit.fontawesome.com/c227f8f709.js"></script>
+</head>
+
+
+<body>
+    <div id="contenedor-landing">
+        <!-- inicio navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+          <div class="container-fluid contenedor-navbar">
+            <a class="navbar-brand logo-navbar" href="#seccionPortada"><img src="./assets/img/logos/logo-king-white.png"
+              alt="logo ranking"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">portada</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#seccionLibros">obras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#seccionContacto">contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- fin navbar -->
+
+        <!-- inicio sección main -->
+        <main class="bg-secondary text-light p-3" id="seccionPortada">
+          <!-- inicio sección main DESKTOP -->
+          <div class="container seccion-main-desk">
+            <div class="row d-flex mb-3 align-items-center">
+              <div class="col-9 p-2">
+                <h1>ranKING <span class="fw-light">de las mejores obras de stephen king</span></h1>
+                <p>stephen king conocido como el <span class="fw-medium">maestro del terror</span> de la literatura norteamericana,
+                  cuenta con más de 50 novelas publicadas, más de 200 relatos y 350 millones de ejemplares vendidos.
+                  <br>se han hecho en todo el mundo más de 80 adaptaciones de sus obras en la pequeña y la gran pantalla,
+                  lo que lo convierte en el autor vivo más adaptado.
+                  <br>este sitio invita a conocer un ranking con las 12 obras más célebres según sus propios lectores,
+                  con algunos datos interesantes como el año de publicación del libro, año de adaptación cinematográfica
+                  y una breve reseña.
+                </p>
+              </div>
+              <img src="./assets/img/stephen-king/stephen-king.png" class="col-3 ms-auto p-2" alt="dibujo stephen king">
+            </div>
+          </div>
+          <!-- fin sección main DESKTOP -->
+
+          <!-- inicio sección main MOBILE -->
+          <div class="container seccion-main-mobile">
+            <div class="row d-flex mb-3 align-items-center">
+              <img src="./assets/img/stephen-king/stephen-king.png" class="col-12 ms-auto px-5 py-2" alt="dibujo stephen king">
+              <div class="col-12 p-2">
+                <h1>ranKING <span class="fw-light">de las mejores obras de stephen king</span></h1>
+                <p>stephen king conocido como el <span class="fw-medium">maestro del terror</span> de la literatura norteamericana,
+                  cuenta con más de 50 novelas publicadas, más de 200 relatos y 350 millones de ejemplares vendidos.
+                  <br>se han hecho en todo el mundo más de 80 adaptaciones de sus obras en la pequeña y la gran pantalla,
+                  lo que lo convierte en el autor vivo más adaptado.
+                  <br>este sitio invita a conocer un ranking con las 12 obras más célebres según sus propios lectores,
+                  con algunos datos interesantes como el año de publicación del libro, año de adaptación cinematográfica
+                  y una breve reseña.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- fin sección main MOBILE -->
+        </main>
+        <!-- fin sección main -->
+
+
+        <!-- inicio sección cards -->
+        <section class="container mt-5 seccion-libros">
+          <div class="row m-auto"  id="seccionLibros">
+            <h2 class="mb-5">obras literarias</h2>
+            <!-- card 1 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/01-resplandor.png" class="card-img-top" alt="el resplandor">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">el resplandor</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1977) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1980) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena1" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena1">
+                    <div class="card card-body">
+                      jack torrance sufre un bloqueo de escritura. con la esperanza de superarlo se convierte en cuidador
+                      del hotel overlook, al que se muda junto a su esposa wendy y su hijo danny (quien tiene premoniciones
+                      psíquicas). jack descubre oscuros secretos del hotel... la escritura no fluye... las visiones de danny
+                      se vuelven más preocupantes...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/02-misery.png" class="card-img-top" alt="misery">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">misery</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1987) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1990) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena2" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena2">
+                    <div class="card card-body">
+                      paul sheldon es un escritor que sufre un grave accidente y recobra el conocimiento en una apartada casa
+                      en la que vive una misteriosa mujer, una antigua enfermera, involucrada en varias muertes misteriosas...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/03-it.png" class="card-img-top" alt="it">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">it</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1986) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1990) (2017) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena3" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena3">
+                    <div class="card card-body">
+                      en un juego de correspondencias entre el pasado y el presente, un grupo de siete amigos es perseguido
+                      por una entidad sobrenatural, al que llaman «eso», que es capaz de cambiar de forma y se alimenta
+                      principalmente del terror que produce en sus víctimas.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/04-carrie.png" class="card-img-top" alt="carrie">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">carrie</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1974) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1976) (2002)
+                    (2013) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena4" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena4">
+                    <div class="card card-body">
+                      carrie, una joven de apariencia insignificante, acosada por sus compañeras de instituto, vive con su
+                      madre, una fanática religiosa. un día en las duchas, la primera menstruación de carrie provoca las
+                      burlas de las demás chicas y desencadena una sucesión de hechos sobrenaturales y terroríficos.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 5 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/05-salems-lot.png" class="card-img-top" alt="el misterio de salems lot">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">el misterio de salem´s lot</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1975) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span>  (1979) serie</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena5" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena5">
+                    <div class="card card-body">
+                      ben mears había entrado en la casa de los marsten veinte años atrás, y lo que vio entonces aún poblaba
+                      sus pesadillas. ahora, como escritor consagrado ha vuelto a jerusalem's lot, un pueblo tranquilo donde
+                      nunca sucedía nada… hasta que los niños empezaron a desaparecer, los animales morían desangrados y la
+                      onda expansiva del horror vació el pueblo.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 6 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/06-milla-verde.png" class="card-img-top" alt="la milla verde">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">la milla verde</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1996) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1999) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena6" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena6">
+                    <div class="card card-body">
+                      octubre de 1932, penitenciaría de cold mountain. los condenados a muerte aguardan el momento de ser
+                      conducidos a la silla eléctrica. los crímenes abominables que han cometido les convierten en carnaza
+                      de un sistema legal que se alimenta de un círculo de locura, muerte y venganza.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 7 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/07-christine.png" class="card-img-top" alt="christine">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">christine</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1983) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1983) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena7" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena7">
+                    <div class="card card-body">
+                      un automóvil marca plymouth de 1958 llamado christine. arnie cunningham está dispuesto a conseguirlo a
+                      cualquier precio. y lo consigue. pero mientras trabaja en la ardua tarea de restaurarlo, el coche da
+                      muestras de ser extraño. la gente muere en las oscuras calles y avenidas de libertyville. y llega un
+                      momento en que no se puede negar la aterradora verdad: christine está viva...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 8 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/08-dolores-claiborne.png" class="card-img-top" alt="dolores claiborne">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">dolores claiborne</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1992) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1995) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena8" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena8">
+                    <div class="card card-body">
+                      durante treinta años, los habitantes de little tall island han esperado averiguar qué pasó durante
+                      el extraño día del eclipse total en que murió el marido de dolores claiborne. ahora la policía quiere
+                      averiguar qué pasó ayer, cuando la rica mujer para la que dolores hacía las tareas domésticas,
+                      una mujer postrada en la cama, murió repentinamente.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 9 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/09-cementerio-animales.png" class="card-img-top" alt="cementerio de animales">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">cementerio de animales</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1983) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1989) (2019) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena9" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena9">
+                    <div class="card card-body">
+                      church estaba allí otra vez, como louis creed temía y deseaba. porque su hijita ellie le había
+                      encomendado que cuidara del gato, y church había muerto atropellado. louis lo había comprobado:
+                      el gato estaba muerto, incluso lo había enterrado más allá del cementerio de animales...el maligno
+                      poder del antiguo cementerio indio le reclamaba con macabra avidez...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 10 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/10-doctor-sueno.png" class="card-img-top" alt="doctor sueño">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">doctor sueño</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (2013) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (2019) cine</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena10" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena10">
+                    <div class="card card-body">
+                      danny torrance (el resplandor), aquel niño aterrorizado del hotel overlook, es un adulto alcohólico
+                      atormentado por los fantasmas de su infancia. un día se siente atraído por una ciudad de new hampshire.
+                      en ese lugar le llega la visión de abra stone, una niña que necesita su ayuda. la persigue una tribu
+                      de seres paranormales que vive del resplandor de los niños especiales.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 11 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/11-cuento-hadas.png" class="card-img-top" alt="cuento de hadas">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">cuento de hadas</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (2022)</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> no tiene (aún)</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena11" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena11">
+                    <div class="card card-body">
+                      charlie reade es un chico normal que hace dos amigos inesperados: un perro llamado radar y su anciano
+                      dueño, howard bowditch, un ermitaño que vive en una casa enorme con un cobertizo cerrado a cal y canto.
+                      sonidos extraños emergen de él. cuando el anciano fallece, le deja una cinta de casete que contiene una
+                      historia, el gran secreto que bowditch ha guardado durante toda su vida en su cobertizo.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 12 -->
+            <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img src="./assets/img/libros/12-apocalipsis.png" class="card-img-top" alt="apocalipsis">
+                <div class="card-body p-2">
+                  <h5 class="card-title" style="height: 3rem;">apocalipsis</h5>
+                  <p class="card-text mb-1"><span><i class="fa-solid fa-book"></i></span> (1978) libro</p>
+                  <p class="card-text" style="height: 3rem;"><span><i class="fa-solid fa-film"></i></span> (1994) (2020) serie</p>
+                  <a class="btn btn-warning text-secondary-emphasis fw-medium" style="width: 100%;" data-bs-toggle="collapse"
+                    href="#resena12" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    reseña
+                  </a>
+                  <div class="collapse" id="resena12">
+                    <div class="card card-body">
+                      un virus gripal, creado artificialmente como posible arma bacteriológica, se extiende por estados unidos
+                      y provoca la muerte de millones de personas. los supervivientes tienen sueños comunes, en los que aparece
+                      una anciana y un hombre joven. la mujer anciana los incita a viajar a nebraska para combatir a randall
+                      flagg, un abominable personaje que encarna las fuerzas del mal y posee un arsenal nuclear.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fin card 12 -->
+          </div>
+        </section>
+        <!-- fin sección cards -->
+
+
+        <!-- inicio sección form -->
+        <section class="bg-dark p-md-3 p-lg-5 " data-bs-theme="dark" id="seccionContacto">
+          <div class="container mx-auto py-3 formulario">
+            <p class="text-light text-center fs-4 fw-medium">contacto</p>
+            <form class="text-light text-center">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nombre">
+              </div>
+              <div class="mb-3">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="correo electrónico">
+              </div>
+              <button type="submit" class="btn btn-warning fw-medium">enviar</button>
+            </form>
+          </div>
+        </section>
+        <!-- fin sección form -->
+
+
+        <!-- inicio sección footer -->
+        <footer class="my-5">
+          <div class="mx-auto text-center">
+            <a href="#seccionPortada"><img src="./assets/img/logos/logo-king-black.png"  alt="logo ranking"></a>
+            <p class="pt-2">© 2024 ranKING. todos los derechos reservados</p>
+          </div>
+        </footer>
+        <!-- fin sección footer -->
+    </div>
+
+    <!-- popper and bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
